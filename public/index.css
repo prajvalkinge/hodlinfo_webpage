@@ -1,0 +1,57 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+.head{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    /* align-items:baseline; */
+    padding: 5px 10px;
+}
+.material-icons{
+    position: relative;
+     top: 9px;
+     font-size: 2rem;
+}
+#symbol span{
+     color: teal;
+     height: 4rem;
+    }
+h1 , h3{
+    display: inline-block;
+}
+ .brand{ color: rgb(30, 105, 155); 
+    font-size: 2rem; 
+    margin-top: -5px;
+}
+.head div p:nth-of-type(2){
+    color: rgb(30, 105, 155);
+}
+.head div p{
+    display: inline;
+    position: relative;
+    bottom: 1rem;
+    top: 1rem;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgb(27, 121, 121);
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+a:hover{ background-color: rgb(9, 109, 6); color: white;}
+#heading{
+    color: gray;
+    text-align: center;
+    background-color: black;
+    line-height: 8px;
+    padding :2%;
+} 
+#cntr{
+    text-align: center;
+}
+
